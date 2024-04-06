@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Прикольный сайт</title>
+   <link rel="stylesheet" href="css/style.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+
+<body>
+   <header class="header">
+      <div class="container container_header">
+         <div class="header__logo">
+            <img src="img/img.png" alt="logo" class="logo__img">
+            <h2 class="logo__title">Fox Industry</h2>
+         </div>
+         <nav class="nav">
+            <ul class="header__list">
+               <li class="header__item choose">Главная</li>
+               <li class="header__item">Об авторе</li>
+               <li class="header__item">Видео</li>
+               <li class="header__item">Gallery</li>
+               <li class="header__item">Контакты</li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main class="main">
+      <section class="hero-block">
+         <div class="container container_hero-block">
+            <img src="img/Season2.png" alt="picture" class="hero-block">
+            <div class="hero-block__content">
+               <h1 class="hero-block__title">Я Годжо Саторо</h1>
+               <p class="hero-block__text">Я работаю в Токийском магическом колледже, мечтаю воспитать новое поколение
+                  магов, обладающих индивидуальным мышлением и толикой безумной самобытности.</p>
+               <a href="https://kion.ru/video/filter/moviesFullLengthToons" class="hero-block__link">Свяжитесь со мной</a>
+            </div>
+         </div>
+      </section>
+      <section class="about">
+         <div class="container container__about">
+            <h2 class="about__title">Об авторе</h2>
+            <div class="about__content">
+               <div class="about__rate">
+                  <h3 class="rate__title">My abilities</h3>
+                  <ul class="rate__list">
+                     <li class="rate__item">
+                        <h4 class="rate__name">Проклятая энергия</h4>
+                        <div class="rate__full">
+                           <div class="rate__done energy"></div>
+                        </div>
+                     </li>
+                     <li class="rate__item">
+                        <h4 class="rate__name">Сила</h4>
+                        <div class="rate__full">
+                           <div class="rate__done power"></div>
+                        </div>
+                     </li>
+                     <li class="rate__item">
+                        <h4 class="rate__name">Техники</h4>
+                        <div class="rate__full">
+                           <div class="rate__done teplom"></div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <img src="img/img-group.png" alt="gg" class="about__img">
+            </div>
+         </div>
+      </section>
+      <section class="video">
+         <div class="container container_video">
+            <h2 class="video__title">Видео</h2>
+            <iframe class="video__video" src="https://www.youtube.com/embed/7B60kOXDRxY?si=dRFw8Dw9voyCF3Ur" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         </div>
+      </section>
+      <section class="gallery">
+         <h2 class="gallery__title">Gallery</h2>
+         <ul class="gallery__list">
+            <li class="gallery__item">
+               <a href="img/Eyes.png" class="lightzoom">
+                  <img class="gallery__img" src="img/Eyes.png"/>
+                </a>
+            </li>
+            <li class="gallery__item">
+               <a href="img/Purple.png" class="lightzoom">
+                  <img class="gallery__img" src="img/Purple.png"/>
+                </a>
+            </li>
+            <li class="gallery__item">
+               
+               <a href="img/Yellow.png" class="lightzoom">
+                  <img class="gallery__img" src="img/Yellow.png"/>
+                </a>
+            </li>
+            <li class="gallery__item">
+               <a href="img/Satoru.png" class="lightzoom">
+                  <img class="gallery__img" src="img/Satoru.png"/>
+                </a>
+            </li>
+            <li class="gallery__item">
+               <a href="img/Crit.png" class="lightzoom">
+                  <img class="gallery__img" src="img/Crit.png"/>
+                </a>
+            </li>
+         </ul>
+      </section>
+   </main>
+   <footer class="footer">
+      <div class="container container_footer">
+         <div class="footer__content">
+            <h3 class="footer__title">Fox Industry</h3>
+            <p class="footer__text">&copy; 2024. All rights reserved</p>
+         </div>
+         <ul class="footer__list">
+            <li class="footer__item">
+               <a href="https://webk.telegram.org/" target="_blank">
+               <img src="img/telegram.png" alt="telega" class="footer__icon">
+               </a>
+            </li>
+            <li class="footer__item">
+               <a href="https://vk.com/" target="_blank">
+               <img src="img/vk.png" alt="vk" class="footer__icon">
+               </a>
+            </li>
+            <li class="footer__item">
+               <a href="https://discord.com/" target="_blank">
+               <img src="img/discord.png" alt="discord" class="footer__icon">
+               </a>
+            </li>
+         </ul>
+      </div>
+   </footer>
+   <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+   <script type="text/javascript">
+      jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+  </script>
+</body>
+</html>
